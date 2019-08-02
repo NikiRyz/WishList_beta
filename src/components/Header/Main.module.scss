@@ -4,16 +4,18 @@
   display: flex;
   justify-content: space-between;
 
+
   &_me {
     width: 160px;
     @include info(40px, 40px, flex, space-between);
   }
 
   &_friends {
-    width: 159px;
+    width: 150px;
     @include info(40px, 40px, flex, space-between);
-    margin-right: 10px;
+    margin-right: 20px;
     position: relative;
+
 
     &_avatar {
       position: absolute;
@@ -33,24 +35,27 @@
 .nickname {
   width: 120px;
   height: 25px;
-  font-size: 12px;
+  font-size: 14px;
   color: $nickname;
   display: inline-block;
   vertical-align: top;
+  text-decoration: none;
+
+
 }
 
 .fio {
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 .first_img {
-  left: 15px;
+  left: 0px;
 }
 
 .second_img {
-  left: 35px;
+  left: 25px;
 }
 
 .third_img {
-  left: 55px;
+  left: 50px;
 }

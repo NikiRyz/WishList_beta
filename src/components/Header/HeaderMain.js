@@ -23,15 +23,15 @@ class HeaderMain extends React.Component {
             <div className={cls.header}>
                 <div className={cls.header_me}>
                     <img src={myPhoto} alt="my_avatar"/>
-                    <div className={`${cls.nickname} ${cls.fio}`}>
-                        <Link to="/me">
+                    <div >
+                        <Link to="/me" className={`${cls.nickname} ${cls.fio}`} >
                             {fio}
                         </Link>
                     </div>
                 </div>
                 <div className={cls.header_friends}>
-                    <div className={cls.nickname}>
-                        <Link to="/friends">
+                    <div >
+                        <Link to="/friends" className={cls.nickname}>
                             Мои друзья
                         </Link>
                     </div>
