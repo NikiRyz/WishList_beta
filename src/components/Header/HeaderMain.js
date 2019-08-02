@@ -1,6 +1,6 @@
 import React from 'react'
 import propTypes from 'prop-types'
-import cls from './Main.module.css'
+import cls from './Main.module.scss'
 import {Link} from "react-router-dom";
 
 class HeaderMain extends React.Component {
