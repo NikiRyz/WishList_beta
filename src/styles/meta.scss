@@ -1,0 +1,41 @@
+%button_favorites {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  width: 200px;
+  height: 40px;
+  border-radius: 21px;
+  background-image: linear-gradient(79deg, #7dc4ff, #6700ff);
+}
+
+%button_delete {
+  margin-top: 15px;
+  width: 150px;
+  height: 40px;
+  border-radius: 21px;
+  background-image: linear-gradient(75deg, #e0fffd, #e7e1ff);
+  font-size: 14px;
+  text-align: center;
+  &:hover {
+    color: #9555af;
+    border-color: currentColor;
+    background-color: #e0fffd;
+  }
+}
+
+%button_know_wishlist {
+  width: 150px;
+  height: 30px;
+  border-radius: 21px;
+  background-image: linear-gradient(79deg, #7dc4ff, #6700ff);
+  color: #ffffff;
+  font-size: 12px;
+}
+
+%container_scroll {
+  overflow-y: auto;
+  &::-webkit-scrollbar { width: 0; }
+  &{ -ms-overflow-style: none; }
+  &{ overflow: -moz-scrollbars-none; }
+}

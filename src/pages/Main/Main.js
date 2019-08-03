@@ -1,6 +1,8 @@
 import React from 'react';
 import HeaderMain from "../../containers/HeaderMain";
-import Heading from "../../components/Heading/Heading"
+import Search from "../../containers/Search"
+import WishlistMain from "../../containers/WishListMain"
+
 
 
 class WishList extends React.Component {
@@ -8,6 +10,14 @@ class WishList extends React.Component {
         return (
             <div>
                 < HeaderMain />
+                <Search
+                    placeholder="Введите название товара"
+                    name="main"
+                    emoji="em em-star-struck"
+                    title="Wishlist"
+                    // searchSetQuery={search}
+                />
+                <WishlistMain/>
 
             </div>
         );
