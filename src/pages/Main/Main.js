@@ -13,7 +13,7 @@ class WishList extends React.Component {
                 <Search
                     placeholder="Введите название товара"
                     name="main"
-                    emoji="em em-star-struck"
+                    emoji="em em-heart_eyes"
                     title="Wishlist"
                     // searchSetQuery={search}
                 />

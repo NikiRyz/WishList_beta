@@ -6,8 +6,8 @@ import WishlistMain from '../components/WishlistMain'
 const searchBooks = (items, searchQuery) => {
     if (searchQuery) {
         items = items.filter(item =>
-            ~item.title.toLowerCase().indexOf(searchQuery.toLowerCase()) ||
-            ~item.author.toLowerCase().indexOf(searchQuery.toLowerCase()))
+            ~item.product_name.toLowerCase().indexOf(searchQuery.toLowerCase())
+            )
             return items;
     }
         return items;

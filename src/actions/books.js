@@ -1,4 +1,4 @@
-import axios from 'axios'
+import Axios from 'axios'
 
 export const addToWish = (obj) => ({
     type: 'ADD_TO_WISH_LIST',
@@ -16,7 +16,7 @@ export function setBooks() {
         type: 'BOOKS_REQUEST'
     });
 
-   axios.get('/books.json')
+   Axios.get('http://editor.swagger.io/products/list?start=1&limit=10')
         .then (data => dispatch({
                 type: 'BOOKS_SUCCESS',
                 payload: data

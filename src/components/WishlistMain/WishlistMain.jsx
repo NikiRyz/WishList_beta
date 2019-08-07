@@ -28,7 +28,7 @@ class WishlistMain extends React.Component {
             return <h1 className={cls.load}>Данных нет</h1>
         } else {
             return items.map(item => < Wishlistitem
-                key={item.id} {...item} addToWish={addToWish}/>)
+                key={item._id} {...item} addToWish={addToWish}/>)
         }
 
     };
