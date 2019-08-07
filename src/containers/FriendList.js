@@ -1,5 +1,5 @@
 import {connect} from 'react-redux'
-import FriendsListNew from "../pages/FriendsPage/FriendsList";
+import FriendsListNew from "../pages/FriendsPage/FriendsListNew";
 import {getFriends} from "../actions/friends";
 import {searchFriendsByQuery} from "../actions/friendsSearch";
 
