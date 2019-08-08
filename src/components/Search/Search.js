@@ -12,6 +12,8 @@ const Search = ({
                     title,
                     emoji,
                     name,
+                    title1,
+                    emoji1,
                     searchSetQuery,
                 }) => {
     let cls;
@@ -37,6 +39,10 @@ const Search = ({
                 minLength={1}
                 debounceTimeout={300}
             />
+            <div className={cls.container_title1}>
+                {title1}
+                <i className={`${emoji1}`} />
+            </div>
         </div>
     );
 };
@@ -50,6 +56,8 @@ Search.propTypes = {
     searchQuery: propTypes.string,
     title: propTypes.string.isRequired,
     emoji: propTypes.string.isRequired,
+    title1: propTypes.string.isRequired,
+    emoji1: propTypes.string.isRequired,
     name: propTypes.string.isRequired,
     searchSetQuery: propTypes.func.isRequired,
 };

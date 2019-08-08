@@ -2,7 +2,7 @@ import React from 'react'
 import propTypes from 'prop-types'
 import cls from './FriendsHeader.module.scss'
 import {Link} from "react-router-dom";
-//как прокинуть через props?
+
 
 class FriendsHeader extends React.Component {
     static propTypes = {

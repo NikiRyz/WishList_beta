@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Main from "./Main/Main";
+import Main from "./MyWishList/MyWishList";
 import {Route, Redirect, Switch} from 'react-router-dom'
 import FriendsPage from "./FriendsPage/FriendsPage";
 

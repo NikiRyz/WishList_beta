@@ -1,0 +1,53 @@
+@import 'Wishlistitem.part';
+@import '../../../styles/meta';
+
+.item {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  width: 180px;
+
+  & img {
+    width: 200px;
+    min-height: 188px;
+  }
+
+  &_name {
+    @include item(16px, 15px);
+  }
+
+  &_price {
+    @include item(12px, 5px);
+  }
+
+  &_description {
+    @include item(10px, 5px);
+    color: #b2b2b2;
+  }
+
+  &_favorites {
+    @extend %button_delete;
+    border: none;
+    width: 130px;
+    height: 35px;
+  }
+
+  &_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-image: linear-gradient(225deg, #ff0045, #ff9890);
+    position: relative;
+    &_gift {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      color: white;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+

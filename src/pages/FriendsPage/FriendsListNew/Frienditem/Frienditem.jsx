@@ -1,5 +1,4 @@
 import React from 'react'
-import propTypes from 'prop-types'
 import cls from './Frienditem.module.scss'
 import {Link} from "react-router-dom";
 

@@ -17,6 +17,7 @@ export function setBooks() {
     });
 
    Axios.get('http://editor.swagger.io/products/list?start=1&limit=10')
+
         .then (data => dispatch({
                 type: 'BOOKS_SUCCESS',
                 payload: data

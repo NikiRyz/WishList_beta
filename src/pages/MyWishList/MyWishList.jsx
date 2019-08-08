@@ -1,12 +1,15 @@
-import React from 'react';
+import React from 'react'
+import cls from './MyWishList.module.scss'
+import Pending from "./PendingWishList/PendingWishlist"
 import HeaderMain from "../../containers/HeaderMain";
 import Search from "../../containers/Search"
-import WishlistMain from "../../containers/WishListMain"
 
 
 
-class WishList extends React.Component {
+class MyWishList extends React.Component {
+
     render() {
+
         return (
             <div>
                 < HeaderMain />
@@ -15,13 +18,18 @@ class WishList extends React.Component {
                     name="main"
                     emoji="em em-heart_eyes"
                     title="Wishlist"
+                    emoji1="em em-star2"
+                    title1="Популярное"
                     // searchSetQuery={search}
                 />
-                <WishlistMain/>
-
+                <div className={cls.wishlist}>
+                    < Pending/>
+                </div>
             </div>
-        );
+
+        )
     }
 }
 
-export default WishList
+export default MyWishList;
+

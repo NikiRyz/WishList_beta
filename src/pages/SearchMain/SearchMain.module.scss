@@ -1,6 +1,6 @@
 .container {
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     &_title {
         width: 200px;
         height: 53px;
@@ -11,20 +11,6 @@
         & i {
             width: 35px;
             height: 35px;
-            margin-bottom: 10px;
-        }
-    }
-    &_title1 {
-
-        width: 200px;
-        height: 53px;
-        font-size: 30px;
-        color: #000000;
-        display: block;
-        margin: 25px auto 25px auto;
-        & i {
-            width: 25px;
-            height: 25px;
             margin-bottom: 10px;
         }
     }
