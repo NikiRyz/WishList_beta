@@ -8,11 +8,11 @@ class FriendsPage extends React.Component {
     render() {
         return (
             <div>
-                < FriendsHeader />
+                < FriendsHeader/>
                 < FriendsSearch placeholder="Начните вводить имя друга" title="Мои друзья"
                                 emoji="em em-stuck_out_tongue_winking_eye" name="friends"/>
-                < FriendsListNew/>
 
+                < FriendsListNew/>
             </div>
         );
     }

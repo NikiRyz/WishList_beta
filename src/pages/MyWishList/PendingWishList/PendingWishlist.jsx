@@ -1,7 +1,9 @@
-import React from 'react'
+import * as React from 'react';
+import Masonry from 'react-masonry-component';
 import LoadingWishList from "../LoadingWishList/LoadingWishList";
 import Item from "../Wishlistitem/Wishlistitem";
 import cls from './PendingWishList.module.scss'
+
 
 
 
@@ -104,14 +106,17 @@ class PendingWishlist extends React.Component {
             wishlist = <div className={cls.load}><LoadingWishList/></div>
         } else {
             wishlist = items.map(item => {
-                return < Item key={item.id} name={item.name} price={item.price} description={item.description} img={item.img}
-                                      onClick={this.handlerDelItem}/>
+                return  < Item key={item.id} name={item.name} price={item.price} description={item.description} img={item.img}
+                                        onClick={this.handlerDelItem}/>
             })
         }
         return (
-            <div className={cls.container}>
+            <Masonry className={cls.container}>
+
                 {wishlist}
-            </div>
+
+            </Masonry>
+
         );
     }
 }

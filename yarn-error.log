@@ -2,7 +2,7 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
 
 PATH: 
-  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Users\Ника.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python37\Scripts;C:\composer;C:\Users\Ника.DESKTOP-23MK6NI\Desktop\OSPanel\modules\php\PHP-7.0;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python36\;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python37\;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3\Library\mingw-w64\bin;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3\Library\usr\bin;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3\Library\bin;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3\Scripts;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Microsoft\WindowsApps;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Yarn\bin;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\GitHubDesktop\bin
+  C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList\node_modules\.bin;C:\Program Files\JetBrains\WebStorm 2019.2\jbr\\bin;C:\Program Files\JetBrains\WebStorm 2019.2\jbr\\bin\server;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Users\Ника.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python37\Scripts;C:\composer;C:\Users\Ника.DESKTOP-23MK6NI\Desktop\OSPanel\modules\php\PHP-7.0;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python36\;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Programs\Python\Python37\;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3\Library\mingw-w64\bin;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3\Library\usr\bin;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3\Library\bin;C:\Users\Temp.DESKTOP-23MK6NI\Anaconda3\Scripts;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Microsoft\WindowsApps;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Yarn\bin;C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\GitHubDesktop\bin
 
 Yarn version: 
   1.16.0
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Temp.DESKTOP-23MK6NI\AppData\Local\Yarn\Cache\v4\npm-abbrev-1.1.1-f8f2c887ad10bf67f634f005b6987fed3179aac8\node_modules\abbrev\README.md' -> 'C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList\node_modules\abbrev\README.md'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList\node_modules\.node-sass.DELETE\vendor\win32-x64-64\binding.node'
 
 npm manifest: 
   {

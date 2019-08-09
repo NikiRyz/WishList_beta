@@ -1,27 +1,25 @@
-@import 'Wishlistitem.part';
-@import '../../../styles/meta';
+@import './Wishlistitem.part';
+@import '../../../../styles/meta';
 
 .item {
-  margin-left: 50px;
+  margin-left: 55px;
   margin-bottom: 50px;
-  height: auto;
   width: 175px;
-
   & img {
-    width: 175px;
-    min-height: 188px;
+    width: 180px;
     object-fit: contain;
   }
 
-  &_name {
+  &_title {
     @include item(16px, 15px);
+    font-weight: 700;
   }
 
   &_price {
     @include item(12px, 5px);
   }
 
-  &_description {
+  &_author {
     @include item(10px, 5px);
     color: #b2b2b2;
   }
@@ -29,19 +27,18 @@
   &_favorites {
     @extend %button_delete;
     border: none;
-    width: 125px;
-    height: 30px;
   }
 
   &_icon {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 20px;
     background-image: linear-gradient(225deg, #ff0045, #ff9890);
     position: relative;
+
     &_gift {
       position: absolute;
       left: 50%;
@@ -52,3 +49,23 @@
   }
 }
 
+[data-tooltip]::before {
+  content: attr(data-tooltip);
+  opacity: 0;
+  transition: 1s;
+  pointer-events: none;
+  width: 110px;
+  height: 42px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  font-size: 5px;
+  position: absolute;
+  top: -140%;
+  left: -80%;
+  padding: 5px;
+}
+
+[data-tooltip]:hover::before {
+  opacity: 1;
+}

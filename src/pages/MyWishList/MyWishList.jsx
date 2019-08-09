@@ -6,6 +6,7 @@ import Search from "../../containers/Search"
 
 
 
+
 class MyWishList extends React.Component {
 
     render() {
@@ -22,9 +23,11 @@ class MyWishList extends React.Component {
                     title1="Популярное"
                     // searchSetQuery={search}
                 />
+
                 <div className={cls.wishlist}>
                     < Pending/>
                 </div>
+
             </div>
 
         )

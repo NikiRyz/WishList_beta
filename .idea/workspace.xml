@@ -2,125 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0cbd31-8883-475d-a834-5374ffe2e1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderFriends.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/FriendsHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/HeaderMyPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/HeaderMyPage/HeaderMyPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/HeaderMyPage/HeaderMyPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/HeaderMyPage/HeaderMyPage.part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/HeaderMyPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/MyGiftList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/MyGiftList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/MyGiftList.part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/MyGiftListitem/MyGiftListitem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/MyGiftListitem/MyGiftListitem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/MyGiftListitem/MyGiftListitem.part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/MyGiftListitem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/PendingWishList/PendingMyGiftList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/PendingWishList/PendingMyGiftList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/PendingWishList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyGiftList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyInfo/MyInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyInfo/MyInfo.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyInfo/MyInfo.part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyInfo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/LoadingWishList/LoadingWishList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/LoadingWishList/LoadingWishList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/LoadingWishList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/MyWishList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/MyWishList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/MyWishList.part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/PendingWishList/PendingWishList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/PendingWishList/PendingWishlist.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/PendingWishList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/Wishlistitem/Wishlistitem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/Wishlistitem/Wishlistitem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/Wishlistitem/Wishlistitem.part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/Wishlistitem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishListNew/MyWishList.part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishListNew/MyWishListNew.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishListNew/MyWishListNew.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishListNew/Wishlistitem/Wishlistitem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishListNew/Wishlistitem/Wishlistitem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishListNew/Wishlistitem/Wishlistitem.part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishListNew/Wishlistitem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MyPage/MyWishListNew/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/books.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Search/SearchMain.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/SearchMain.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FriendList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FriendList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsHeader/FriendsHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsHeader/FriendsHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FriendsPage/FriendsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/meta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/meta.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MyWishList/MyWishList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MyWishList/MyWishList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MyWishList/PendingWishList/PendingWishList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MyWishList/PendingWishList/PendingWishList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MyWishList/PendingWishList/PendingWishlist.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MyWishList/PendingWishList/PendingWishlist.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MyWishList/Wishlistitem/Wishlistitem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MyWishList/Wishlistitem/Wishlistitem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/MyWishList.module.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/MyWishList.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/SearchMain/SearchMain.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/MyWishList.part.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/PendingWishList/PendingWishlist.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1405">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.module.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/meta.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.part.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,173 +71,21 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>index-bundle.js</find>
-      <find>fetch</find>
-      <find>ax</find>
-      <find>addToWish</find>
-      <find>mod</find>
-      <find>rules:</find>
-      <find>уд</find>
-      <find>handlerDelItem</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList</dir>
-      <dir>C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList\src</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/actions/search.js" />
-        <option value="$PROJECT_DIR$/src/actions/actionTypes.js" />
-        <option value="$PROJECT_DIR$/src/actions/usersInfo.js" />
-        <option value="$PROJECT_DIR$/src/store.js" />
-        <option value="$PROJECT_DIR$/src/containers/WishList.js" />
-        <option value="$PROJECT_DIR$/src/components/WishlistMain/WishListMain.js" />
-        <option value="$PROJECT_DIR$/src/components/ListItem/ListItem.js" />
-        <option value="$PROJECT_DIR$/src/components/WishlistMain/WishlistMain.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/WishlistMain/Wishlistitem/Wishlistitem.module.scss" />
-        <option value="$PROJECT_DIR$/src/actions/books.json" />
-        <option value="$PROJECT_DIR$/src/containers/WishListMain.js" />
-        <option value="$PROJECT_DIR$/src/components/WishlistMain/Wishlistitem/Wishlistitem.jsx" />
-        <option value="$PROJECT_DIR$/src/components/WishlistMain/WishlistMain.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/FriendsSearch.js" />
-        <option value="$PROJECT_DIR$/src/pages/Main/Main.js" />
-        <option value="$PROJECT_DIR$/src/containers/HeaderFriends.js" />
-        <option value="$PROJECT_DIR$/src/pages/FriendsPage/FriendsList/Frienditem/Frienditem.jsx" />
-        <option value="$PROJECT_DIR$/src/components/FriendsList/FriendsListNew.jsx" />
-        <option value="$PROJECT_DIR$/src/components/FriendsList/Frienditem/Frienditem.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Header/Friends.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/FriendsList/index.js" />
-        <option value="$PROJECT_DIR$/src/components/FriendsList/FriendsList.jsx" />
-        <option value="$PROJECT_DIR$/src/components/FriendsList/FriendsList.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/FriendsList/Frienditem/Frienditem.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/HeaderMain.js" />
-        <option value="$PROJECT_DIR$/src/components/FriendsList/Frienditem/Frienditem.js" />
-        <option value="$PROJECT_DIR$/src/components/FriendsList/FriendsList.js" />
-        <option value="$PROJECT_DIR$/src/actions/books.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/components/Search/Search.js" />
-        <option value="$PROJECT_DIR$/src/components/Search/SearchMain.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/MyWishList/Wishlistitem/Wishlistitem.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/MyWishList/Wishlistitem/Wishlistitem.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/MyWishList/LoadingWishList/LoadingWishList.css" />
-        <option value="$PROJECT_DIR$/src/pages/MyWishList/LoadingWishList/LoadingWishList.scss" />
-        <option value="$PROJECT_DIR$/src/pages/MyWishList/LoadingWishList/LoadingWishList.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/FriendsPage/FriendsHeader/FriendsHeader.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/FriendList.js" />
-        <option value="$PROJECT_DIR$/src/pages/App.js" />
-        <option value="$PROJECT_DIR$/src/pages/FriendsPage/FriendsPage.js" />
-        <option value="$PROJECT_DIR$/src/containers/FriendsHeader.js" />
-        <option value="$PROJECT_DIR$/src/components/Header/Main.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/HeaderFriends.js" />
-        <option value="$PROJECT_DIR$/src/pages/MyWishList/PendingWishList/PendingWishlist.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/MyWishList/LoadingWishList/LoadingWishList.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.module.scss" />
-        <option value="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.module.scss" />
-        <option value="$PROJECT_DIR$/src/styles/meta.scss" />
-        <option value="$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/MyWishList/MyWishList.jsx" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="84" />
-    <option name="y" value="216" />
-    <option name="width" value="1431" />
-    <option name="height" value="576" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="WishList" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="WishList" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="WishList" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="WishList" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Header" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="WishList" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Temp.DESKTOP-23MK6NI\Desktop\WishList" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WishList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="MyWishList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WishList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WishList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchMain" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1PA0bK6hFeFAyjxW9NGs1EYSmHB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="EditorConfig" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -339,12 +128,11 @@
       <workItem from="1565140873587" duration="5847000" />
       <workItem from="1565156569186" duration="12656000" />
       <workItem from="1565176122857" duration="1196000" />
-      <workItem from="1565208063431" duration="35501000" />
+      <workItem from="1565208063431" duration="40697000" />
+      <workItem from="1565301670967" duration="7310000" />
+      <workItem from="1565317834221" duration="3583000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,414 +143,23 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="npm" order="0" side_tool="true" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.21621622" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4944356" visible="true" weight="0.29662523" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5055644" side_tool="true" weight="0.37833038" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3285968" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49920508" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.3285968" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/FriendsSearch/FriendsSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Friends.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FriendsList/Frienditem/Frienditem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FriendsList/FriendsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/books.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/WishListMain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WishlistMain/WishlistMain.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/PendingWishList/PendingWishList.module.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/Wishlistitem/Wishlistitem.part.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WishlistMain/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WishlistMain/WishlistMain.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Search/SearchMain.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WishlistMain/Wishlistitem/Wishlistitem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/Wishlistitem/Wishlistitem.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/Wishlistitem/Wishlistitem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Search/Search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="51" column="2" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/LoadingWishList/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsHeader/FriendsHeader.part.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsHeader/FriendsHeader.module.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/FriendsSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsHeader/FriendsHeader.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.part.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HeaderMain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderMain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Main.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderFriends.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/LoadingWishList/LoadingWishList.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/FriendsHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/FriendList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.part.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/LoadingWishList/LoadingWishList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/meta.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/Frienditem/Frienditem.part.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FriendsPage/FriendsListNew/FriendsListNew.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/MyWishList.module.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/PendingWishList/PendingWishlist.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1405">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/SearchMain/SearchMain.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/MyWishList.part.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyWishList/MyWishList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
